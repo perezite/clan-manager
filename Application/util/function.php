@@ -17,9 +17,9 @@ function HoleSQLDatum($Datensatz, $Feld)
 // Holt das Datum mit 30-tägigen Monaten
 function HoleBankDatum($ZeigeDatum)
 {
-$datum[tag] = date("d");
-$datum[monat] = date("m");
-$datum[jahr]= date("Y");
+$datum[tag] = @date("d");		
+$datum[monat] = @date("m");
+$datum[jahr]= @date("Y");
 // Bank-Datum
 if ($datum[tag]>30)
   $datum[tag] = 30;
