@@ -2,6 +2,11 @@
 ## Quick Description ##
 A web-based application for accounting and billing, tailored to the specific needs of a gamehoster company.
 
+## Quick Start
+To start the web-server for quick testing, do the following:
+* Execute StartDevelopmentServers.bat This starts a local PHP and MySQL Server.
+* Open the address http://localhost:5723 in your webbrowser
+
 ## Full Description ##
 Clan Manager is a web-based application for managing and billing clients (called gaming *clans*) of a gamehoster company.
 
